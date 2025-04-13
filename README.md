@@ -6,11 +6,10 @@ A dreamy dark pink Hello Kitty VS Code theme made with love.
 
 - 🖤 Pitch black background
 - 💖 Soft pink & bubblegum syntax highlighting
-- 💬 Italic gray comments with emoji 🎀
+- 💬 Italic gray comments 🎀
 - 🧠 Cute autocomplete popup
 - 🔥 Error highlights in hot pink
-- 🧪 Pastel lila strings and variables
-- 🧻 Transparent pink selection
+- 🧪 Pastel lila strings 
 - 💻 Styled terminal and UI to match
 
 ![image](https://github.com/user-attachments/assets/94514d7f-97ce-4e90-92e7-2190f4c65ccb)
