@@ -12,7 +12,7 @@ Write-Host @"
  > ^ < 
 "@ -ForegroundColor Magenta
 
-# Proverava da li se nalazi u Git repozitorijumu (da li postoji .git folder)
+# Provjerava da li se nalazi u Git repozitorijumu (da li postoji .git folder)
 if (!(Test-Path ".git")) {
     Write-Host "Ovo nije Git repozitorijum. Idi u svoj projekat!" -ForegroundColor Red
     exit  # Ako nije – prekida se izvršavanje skripte
