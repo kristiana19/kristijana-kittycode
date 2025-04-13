@@ -1,0 +1,167 @@
+{
+	"name": "Kristijana KittyCode 💻🎀",
+	"type": "dark",
+	"colors": {
+	  // 🖤 Editor background i tekst
+	  "editor.background": "#000000",
+	  "editor.foreground": "#ffcce5",
+	  "editorCursor.foreground": "#ff4da6",
+	  "editor.selectionBackground": "#ff99cc40",
+	  "editor.lineHighlightBackground": "#111111",
+	  "editorLineNumber.foreground": "#555555",
+	  "editorLineNumber.activeForeground": "#ffb6c1",
+  
+	  // 🎀 Status Bar (dole)
+	  "statusBar.background": "#ff4da6",
+	  "statusBar.foreground": "#ffffff",
+	  "statusBar.noFolderBackground": "#ff4da6",
+	  "statusBar.debuggingBackground": "#ff66b2",
+	  "statusBar.border": "#000000",
+  
+	  // 🌸 Title Bar (gore)
+	  "titleBar.activeBackground": "#000000",
+	  "titleBar.inactiveBackground": "#000000",
+	  "titleBar.activeForeground": "#ffcce5",
+	  "titleBar.inactiveForeground": "#ff99cc",
+  
+	  // 🩷 Menubar
+	  "menubar.selectionForeground": "#ff66b2",
+	  "menubar.selectionBackground": "#111111",
+  
+	  // 📋 Dropdown meni
+	  "menu.background": "#000000",
+	  "menu.foreground": "#ffcce5",
+	  "menu.selectionBackground": "#111111",
+	  "menu.selectionForeground": "#ff66b2",
+	  "menu.separatorBackground": "#444444",
+  
+	  // 🎨 Activity Bar (levi meni)
+	  "activityBar.background": "#000000",
+	  "activityBar.foreground": "#ffcce5",
+	  "activityBar.inactiveForeground": "#777777",
+	  "activityBarBadge.background": "#ff4da6",
+	  "activityBarBadge.foreground": "#ffffff",
+  
+	  // 🪄 Terminal
+	  "terminal.background": "#000000",
+	  "terminal.foreground": "#ffcce5",
+	  "terminalCursor.foreground": "#ff4da6",
+	  "terminal.ansiBrightMagenta": "#ff99cc",
+	  "terminal.ansiGreen": "#c3e88d",
+	  "terminal.ansiWhite": "#ffcce5",
+	  "terminal.ansiRed": "#ff4d6d",
+	  "terminal.ansiBrightRed": "#ff0033",
+  
+	  // 🧃 Tabovi (gore ispod title bara)
+	  "tab.activeBackground": "#000000",
+	  "tab.inactiveBackground": "#111111",
+	  "tab.activeForeground": "#ffb6c1",
+	  "tab.inactiveForeground": "#777777",
+	  "tab.border": "#000000",
+  
+	  // ❤️ Greške u editoru i tabovima
+	  "editorError.foreground": "#ff4d6d",
+	  "editorError.border": "#ff4d6d",
+	  "tab.activeModifiedBorder": "#ff4d6d",
+	  "tab.unfocusedActiveModifiedBorder": "#fd113c",
+	  "tab.activeBorderTop": "#ff4d6d",
+  
+	  // 📁 Sidebar (Explorer)
+	  "sideBar.background": "#000000",
+	  "sideBar.foreground": "#ffcce5",
+	  "sideBarSectionHeader.foreground": "#ff99cc",
+  
+	  // 🔘 Dugmad
+	  "button.background": "#ff4da6",
+	  "button.foreground": "#ffffff",
+	  "button.hoverBackground": "#ff66b2",
+  
+	  // 🔗 Linkovi u tekstu
+	  "textLink.foreground": "#ff99cc",
+	  "textLink.activeForeground": "#ff66b2",
+  
+	  // 🧠 Autocomplete (suggestions popup)
+	  "editorSuggestWidget.background": "#000000",
+	  "editorSuggestWidget.foreground": "#ffcce5",
+
+	  // 🌸 Fajlovi i git status u Exploreru
+	 "list.activeSelectionForeground": "#ffb6c1",    // Bubblegum pink selektovani fajl
+	 "list.activeSelectionBackground": "#111111",    // Tamna pozadina selekcije
+	 "list.inactiveSelectionBackground": "#111111",
+	 "list.hoverForeground": "#ffcce5",              // Roze kada pređeš mišem
+	 "list.hoverBackground": "#111111",
+
+	 // 💖 Git status boje
+	 "gitDecoration.modifiedResourceForeground": "#ff66b2",   // Modifikovani fajl (M)
+	 "gitDecoration.untrackedResourceForeground": "#ff99cc", // Novi fajl (U)
+	 "gitDecoration.deletedResourceForeground": "#ff4d6d",   // Obrisan fajl
+	 "gitDecoration.ignoredResourceForeground": "#777777",   // Ignorisani
+	 "gitDecoration.conflictingResourceForeground": "#ff0033", // Konflikti
+
+	 
+
+	},
+
+
+	"tokenColors": [
+	  {
+		"name": "Variables",
+		"scope": [
+		  "variable",
+		  "string constant.other.placeholder",
+		  "meta.definition.variable"
+		],
+		"settings": {
+		  "foreground": "#f04ab8"
+		}
+	  },
+	  {
+		"name": "Comment",
+		"scope": [
+		  "comment",
+		  "punctuation.definition.comment"
+		],
+		"settings": {
+		  "foreground": "#888888",
+		  "fontStyle": "italic"
+		}
+	  },
+	  {
+		"name": "Keywords",
+		"scope": [
+		  "keyword",
+		  "storage.type",
+		  "storage.modifier"
+		],
+		"settings": {
+		  "foreground": "#f31fac",
+		  "fontStyle": "bold"
+		}
+	  },
+	  {
+		"name": "Strings",
+		"scope": [
+		  "string",
+		  "constant.other.symbol",
+		  "constant.other.key",
+		  "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+		],
+		"settings": {
+		  "foreground": "#e6a2f7"
+		}
+	  },
+	  {
+		"name": "Terminal Errors",
+		"scope": [
+		  "markup.error",
+		  "message.error",
+		  "invalid"
+		],
+		"settings": {
+		  "foreground": "#ff4d6d",
+		  "fontStyle": "bold"
+		}
+	  }
+	]
+  }
+  

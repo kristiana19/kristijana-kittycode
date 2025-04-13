@@ -1,0 +1,22 @@
+{
+  "name": "kristijana-kittycode",
+  "displayName": "Kristijana 💻💖",
+  "publisher": "kristijana",
+  "description": "a dark pink dreamy hello kitty VS Code theme made with love by Kristijana 💻💖",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Kristijana KittyCode 💻🎀",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kristijana-kittycode-color-theme.json"
+      }
+    ]
+  }
+}
